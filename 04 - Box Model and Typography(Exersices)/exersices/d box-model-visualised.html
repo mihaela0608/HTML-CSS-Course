@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Model Visualised</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        div{
+            border: 1px dashed grey;
+            
+        }
+        .content{
+            padding: 10px;
+            background-color: lightblue;
+            text-align: center;
+        }
+        .padding{
+            padding: 20px;
+            background-color: lightgreen;
+        }
+        .border{
+            padding: 20px;
+            background-color: lightpink;
+        }
+        .margin{
+            padding: 20px;
+            background-color: lightcoral;
+            height: 80%;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div class="margin">
+        <div class="border">
+            <div class="padding">
+                <div class="content">
+                    Content
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
