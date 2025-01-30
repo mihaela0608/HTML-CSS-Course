@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bigger Box</title>
+    <style>
+        div{
+            display: flex;
+        }
+        
+        .small{
+            min-width: 100px;
+            height: 100px;
+            flex-grow: 1;
+            background-color: lightblue;
+        }
+        .big{
+            min-width: 200px;
+            height: 100px;
+            flex-grow: 2;
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="small"></div>
+        <div class="big"></div>
+        <div class="small"></div>
+    </div>
+</body>
+</html>
