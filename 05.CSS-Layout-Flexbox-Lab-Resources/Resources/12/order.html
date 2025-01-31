@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid darkblue;
+            width: 400px;
+            padding: 1em;
+            align-items: flex-start;
+        }
+        .item{
+            background-color: #eee;
+            padding: 20px;
+            border: 2px solid #000;
+        }
+        .custom .item:nth-child(1){
+            order: 5;
+        }
+        .custom .item:nth-child(2){
+            order: 3;
+        }
+        .custom .item:nth-child(3){
+            order: 1;
+        }
+        .custom .item:nth-child(4){
+            order: 6;
+        }
+        .custom .item:nth-child(5){
+            order: 2;
+        }
+        .custom .item:nth-child(6){
+            order: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <div class="container custom">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+</body>
+</html>
