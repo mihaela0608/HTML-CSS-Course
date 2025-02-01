@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(205, 205, 205);
+}
+.container{
+    background-color: white;
+    border: none;
+    border-radius: 0.3em;
+    margin: 2em auto;
+    max-width: 120ch;
+    padding: 2em;
+}
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+header h1{
+    margin-bottom: 1rem;
+}
+.description{
+    max-width: 50ch;
+    font-style: italic;
+}
+.description,
+footer p{
+    color: gray;
+}
+main{
+    display: flex;
+    gap: 2em;
+}
+hr{
+    max-width: 5em;
+    margin: 2em auto;
+    border: 1px solid rgb(158, 157, 157);
+}

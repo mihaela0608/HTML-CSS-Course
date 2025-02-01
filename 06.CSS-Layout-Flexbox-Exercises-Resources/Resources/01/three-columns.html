@@ -3,59 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The laws of robotics</title>
-    <style>
-        .main{
-            border: 2px solid black;
-            width: 80%;
-        }
-        .main-container{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .rules p{
-            color: grey;
-            font-size: large;
-        }
-        .rules {
-            display: flex;
-            flex-wrap: wrap;
-            width: 30em;
-            text-align: center;
-        }
-        .laws-container{
-            display: flex;
-        }
-    </style>
+    <title>Laws of robotics</title>
+    <link rel="stylesheet" href="/06.CSS-Layout-Flexbox-Exercises-Resources/styles/style.css">
+    <link rel="stylesheet" href="/06.CSS-Layout-Flexbox-Exercises-Resources/styles/three-column.css">
 </head>
 <body>
-    <div class="main">
+    <div class="container">
         <header>
-            <div class="main-container">
-                <h1>Three laws of robotics</h1>
-                <div class="rules">
-                    <p>Rules developed by science-fiction writer Isaac Asimov, who sought to create an ethical system for humans and robots.</p>
-                </div>
-            </div>
+            <h1>Three laws of robotics</h1>
+            <p class="description">Rules developed by science-fiction writer Isaac Asimov, who sought to create an ethical system for humans and robots.</p>
         </header>
+        <hr>
         <main>
-            <div class="laws-container">
-                <div class="rule">
-                    <h3>1st Law</h3>
-                    <p>A robot may not injure a human being or, through inaction, allow a human being to come to harm</p>
-                </div>
-                <div class="rule">
-                    <h3>2nd Law</h3>
-                    <p>A robot must obey the orders given it by human beings except where such orders would conflict with the First Law</p>
-                </div>
-                <div class="rule">
-                    <h3>3rd Law</h3>
-                    <p>A robot must protect its own existence as long as such protection does not conflict with the First or Second Law</p>
-                </div>
-            </div>
+            <section>
+                <h2>1st Law</h2>
+                <p>A robot may not injure a human being or, through inaction, allow a human being to come to harm</p>
+            </section>
+            <section>
+                <h2>2nd Law</h2>
+                <p>A robot must obey the orders given it by human beings except where such orders would conflict with the First Law</p>
+            </section>
+            <section>
+                <h2>3rd Law</h2>
+                <p>A robot must protect its own existence as long as such protection does not conflict with the First or Second Law</p>
+            </section>
         </main>
+        <hr>
+        <footer>
+            <p>Asimov later added another rule, known as the fourth or zeroth law, that superseded the others. It stated that <cite>“a robot may not harm humanity, or, by inaction, allow humanity to come to harm.”</cite></p>
+        </footer>
+
     </div>
-    
+
 </body>
 </html>
