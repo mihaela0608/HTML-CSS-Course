@@ -1,0 +1,16 @@
+body{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+}
+header, main, footer{
+    padding: 2em;
+    border: 2px solid blue;
+    margin: 2em;
+}
+main{
+    min-height: 45vh;
+}
+footer{
+    position: sticky;
+}

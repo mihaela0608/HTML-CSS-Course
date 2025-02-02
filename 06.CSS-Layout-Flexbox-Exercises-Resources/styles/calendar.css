@@ -1,0 +1,45 @@
+html{
+    background-color: rgb(205, 205, 205);
+    text-align: center;
+}
+.container{
+    background-color: white;
+    display: flex;
+    padding: 2em;
+    margin: 2em;
+}
+.week-container *
+, .others-container *{
+    border: 2px solid rgb(202, 202, 202);
+    border-radius: 0.3em;
+    padding: 2em;
+}
+.week-container{
+    flex-grow: 3;
+}
+.others-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.others-container div{
+    flex-grow: 1;
+}
+.days{
+    display: flex;
+    padding: 0;
+    border: none;
+}
+.days div{
+    flex-grow: 1;
+    border-radius: 0;
+}
+.weekend{
+    display: flex;
+    padding: 0;
+    border: none;
+
+}
+.weekend div{
+    flex-grow: 1;
+}

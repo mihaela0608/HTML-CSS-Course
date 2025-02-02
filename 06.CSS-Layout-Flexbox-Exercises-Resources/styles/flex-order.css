@@ -1,0 +1,29 @@
+html{
+    background-color: rgb(205, 205, 205);
+}
+.container{
+    background-color: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em rgb(12, 12, 12, 0.5);
+    padding: 2em;
+    margin: 2em;
+}
+.layout-item{
+    border: 2px solid rgb(202, 202, 202);
+    border-radius: 0.5em;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+.main-content{
+    display: flex;
+    gap: 1em;
+}
+main{
+    flex-grow: 3;
+}
+aside{
+    flex-grow: 1;
+}
+.item2{
+    order: -1;
+}
