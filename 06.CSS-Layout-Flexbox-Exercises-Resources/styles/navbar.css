@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(233, 232, 232);
+    padding: 0.5em;
+    display: flex;
+    gap: 1em;
+    margin: 1em;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 0.3px;
+    box-shadow: 0 0 1px 0 rgb(0, 0, 0, 1);
+}
+button{
+    padding: 0.7em 1.5em;
+    color: orange;
+    font-weight: bold;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 0.3em;
+}
