@@ -1,0 +1,49 @@
+body{
+    background-color: #CCC;
+}
+.quote{
+    background-color: white;
+    border: none;
+    border-radius: 0.3em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+.profile{
+    align-self: center;
+    border-radius: 50%;
+    width: 70%;
+    border: 0.3em solid white;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.5);
+}
+p:nth-child(1){
+    color: rgb(145, 145, 145);
+}
+p:nth-child(2){
+    font-weight: bold;
+}
+@media (min-width: 600px){
+    .quote{
+        flex-direction: row;
+    }
+}
+@media (min-width: 800px){
+    .quote{
+        flex-direction: column;
+    }
+    .first, .second{
+        flex-direction: row;
+    }
+    .all{
+        display: flex;
+        gap: 2em;
+    }
+    .third{
+        height: 90%;
+    }
+}
