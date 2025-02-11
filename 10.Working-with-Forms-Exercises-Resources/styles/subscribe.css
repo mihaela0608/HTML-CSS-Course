@@ -1,0 +1,30 @@
+form{
+    padding: 2em;
+    display: flex;
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.5em 0 rgb(0, 0, 0, 0.1);
+    margin: 2em auto;
+    width: fit-content;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+#name, #email{
+    background-color: rgb(219, 219, 219);
+    border-radius: 0.3em;
+    padding: 0.5em;
+    border: none;
+}
+#name{
+    width: 12em;
+}
+#email{
+    flex-shrink: 1;
+}
+button{
+    padding: 1em 2em;
+    border: none;
+    border-radius: 0.3em;
+    background-color: orange;
+    color: white;
+}
