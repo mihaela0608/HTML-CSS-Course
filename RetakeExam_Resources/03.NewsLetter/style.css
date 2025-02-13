@@ -1,0 +1,138 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(147, 136, 136);
+    padding: 0 20em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.logo span{
+    background-color: rgb(3, 187, 187);
+    padding: 0.1em;
+    font-family: 'Oleo Script', serif;
+    color: white;
+    font-size: 22px;
+    border-radius: 0.3em;
+    margin-right: 0.5em;
+}
+.logo p{
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    list-style: none;
+}
+li:nth-child(1){
+    background-color: rgb(51, 43, 43);
+    padding: 0.2em;
+    border-radius: 0.3em;
+    color: white;
+}
+.welcome{
+    display: flex;
+    padding: 2em;
+    background-color: white;
+    gap: 2em;
+    border-radius: 0.3em;
+    margin-bottom: 2em;
+}
+.text{
+    flex-grow: 2;
+}
+.text h1:nth-child(2){
+    margin-bottom: 1em;
+}
+.welcome-buttons{
+    flex-grow: 1;
+}
+.text p{
+    font-size:x-large;
+    color: rgb(23, 23, 23);
+}
+.welcome-buttons button{
+    padding: 1.5em;
+    width: 100%;
+    border: none;
+    border-radius: 0.3em;
+    margin-bottom: 2em;
+    font-weight:bolder;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-buttons button:nth-child(1){
+    background-color: rgb(45, 45, 250);
+    color: white;
+}
+.interasting-content *{
+    background-color: white;
+    width: 35ch;
+    border-radius: 0.3em;
+}
+.interasting-content{
+    display: flex;
+    gap: 1.8em;
+    margin-bottom: 2em;
+}
+.title{
+    font-weight: bold;
+}
+.last{
+    margin-top: 1.5em;
+}
+.description{
+    padding: 1em;
+    overflow: hidden;
+}
+.lower-main{
+    padding: 2em;
+    background-color: white;
+    display: flex;
+}
+.stuff{
+    flex-grow: 1;
+}
+.stuff p{
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+.all-about{
+    width: 100ch;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+.images *{
+    border-radius: 0.3em;
+}
+.stuff button, .all-about button{
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 0.3em;
+    background-color: rgb(45, 45, 250);
+    color: white;
+    display: flex;
+    gap: 0.3em;
+}
+.all-about h3, .all-about p{
+    margin-bottom: 1.5em;
+}
+.all-about p{
+    color: rgb(105, 101, 101);
+}
+
+

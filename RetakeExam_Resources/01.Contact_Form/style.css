@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+html{
+    font-family: 'Source Sans 3', sans-serif;
+}
+body, ul, ol, form{
+    font-family: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12em;
+}
+
+.content{
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+}
+p input{
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: rgb(238, 238, 229);
+}
+.input-types{
+    display: flex;
+    flex-direction: column;
+}
+#message{
+    width: 100%;
+}
+form{
+    margin: 2em 0;
+}
+.button{
+    padding: 0.7em 1.5em;
+    color: white;
+    background-color: rgb(84, 77, 77);
+    border: none;
+    border-radius: 0.3em;
+    margin-top: 1.5em;
+}
+.rights{
+    color: rgb(168, 168, 168);
+}
+.big{
+    color: rgb(84, 77, 77);
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 30ch;
+}
+.icon-container{
+    border: 1px solid rgb(153, 153, 153);
+    padding: 0.7em ;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3em;
+}
+
