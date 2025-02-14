@@ -1,1 +1,52 @@
+@media (max-width: 600px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background: #2ac6d0;
+    }
 
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked ~ ul {
+        display: flex;
+    }
+
+    .site-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .about-header {
+        justify-content: center;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .gallery-item {
+        width: 45%;
+    }
+}

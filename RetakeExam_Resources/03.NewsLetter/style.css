@@ -134,5 +134,20 @@ li:nth-child(1){
 .all-about p{
     color: rgb(105, 101, 101);
 }
+footer{
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-f{
+    margin-top: 5em;
+    display: flex;
+    color: rgb(60, 47, 47);
+    gap: 1.5em;
+}
+.content-f a{
+    text-decoration: underline;
+}
 
 
